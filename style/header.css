@@ -19,7 +19,6 @@
 }
 
 
-/* .header__nav-item {} */
 
 .header__nav-link {
     font-weight: 500;
@@ -30,6 +29,8 @@
 
 .header__nav-link:hover {
     color: var(--co-green);
+    filter: blur(1px);
+    transition: .5s;
 }
 
 .header__nav-link:focus-visible{

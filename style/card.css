@@ -36,9 +36,11 @@
 .card__img {
     width: 100%;
     object-fit: cover;
+    border: 1px solid var(--co-white);
     border-radius: 12px;
     aspect-ratio: auto 65/82;
 }
+
 
 .card__title-right {
     align-self: end;

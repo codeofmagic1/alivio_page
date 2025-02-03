@@ -61,6 +61,7 @@
     .product__title {
         font-size: 32px;
     }
+
     .product__content {
         max-width: 390px;
     }
@@ -70,21 +71,41 @@
     .product {
         padding: 115px 0;
     }
+
     .product__wrapper {
         flex-wrap: wrap;
         justify-content: center;
         gap: 50px;
     }
+
     .product__previem {
         height: 470px;
     }
+
     .product__title {
         font-size: 28px;
     }
+
     .product__desc {
         font-size: 16px;
     }
+
     .product__wrapper .persone-card {
         display: none;
     }
+}
+
+
+
+.product .btn:hover,
+.btn:focus-visible {
+    background-color: var(--co-black);
+    transition: .5s;
+}
+
+.product .btn:hover,
+.btn:focus-visible {
+    cursor: pointer;
+    box-shadow: 12px 12px 2px 1px rgba(1, 153, 109, .2);
+    outline: none;
 }

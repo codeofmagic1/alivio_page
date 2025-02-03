@@ -2,21 +2,29 @@
     position: absolute;
     top: 350px;
     left: 5px;
+    padding: 20px 0;
+    gap: 20px;
+
     width: 300px;
     height: 290px;
     border-radius: 5px;
     box-shadow: 3px 3px 7px 0 rgba(0, 0, 0, .3);
     overflow: hidden;
     background-color: var(--co-white);
+    color: var(--co-black);
+
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    padding: 20px 0;
-    gap: 20px;
-    color: var(--co-black);
+
+    transition: 1s;
 }
 
+.persone-card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
 .persone-card__title {
     font-size: 15px;
     font-weight: 600;

@@ -32,6 +32,12 @@
 .hero__content .btn{
     width: 230px;
     height: 65px;
+    outline: none;
+}
+
+.hero__content .btn:hover{
+    opacity: .9;
+    transition: .5s;
 }
 
 @media (max-width: 768px) {
